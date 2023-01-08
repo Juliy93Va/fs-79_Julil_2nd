@@ -1,0 +1,145 @@
+:root {
+  --primary-text-color: #434455;
+  --web-text-color: #4d5ae5;
+  --base-text-color: #2e2f42;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.page-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--web-text-color);
+}
+
+.logo-dark {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--base-text-color);
+}
+
+.logo-white {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #f4f4fd;
+}
+/*=================HEADER================*/
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--base-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--web-text-color);
+}
+
+.contact-info {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: var(--web-text-color);
+}
+
+/*=============Herro===================*/
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  background: var(--base-text-color);
+  color: var(--white-color);
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--white-color);
+  background: var(--web-text-color);
+}
+
+/*=============ABOUT COMPANY===================*/
+.company-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--base-text-color);
+}
+
+.company-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*===============COMPANY WORKS TYPE============*/
+
+.works-type-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--base-text-color);
+}
+
+/*===================employees==================*/
+
+.employees-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--base-text-color);
+}
+
+.employees-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--base-text-color);
+}
+
+.employees-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*============FOOTER=====================*/
+
+.aditional-info {
+  background-color: var(--base-text-color);
+}
+
+.aditional-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e7e9fc;
+}
